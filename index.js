@@ -13,7 +13,8 @@ for (var i = 0; i < tokens.length; i++) {
     client.on('ready', async () => {
         console.log(`Sending freind request from ${tokens[i]}`);
         const rm = new RelationshipManager()
-        await rm.sendFriendRequest(user)
+        rm.sendFriendRequest(user)
+        await new Promise(r => setTimeout(r, 2000));
         client.destroy()
     })
 
