@@ -1,0 +1,10 @@
+{
+  "name": "freindspam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^2.14.9"
+  }
+}
